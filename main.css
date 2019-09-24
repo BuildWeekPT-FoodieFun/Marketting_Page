@@ -1,0 +1,42 @@
+/* background-color #2fa2cc */
+
+/* Body */
+
+.container {
+    margin: 0px;
+}
+
+/* Header */
+
+    #header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: #2fa2cc;
+        color: #35E5F2;
+        height: 945px;
+        overflow-y: auto;
+        position: fixed;
+        text-align: center;
+        top: 0;
+        width: 490.66px;
+        right: 0;
+    }
+
+    .navigation .actions {
+        text-decoration: none;
+    }
+
+    #header .avatar {
+        width: 75%;
+    }
+
+/* Icons */
+
+    
+
+/* Images */
+
+.imageBanner img {
+    width: 50%;
+}
