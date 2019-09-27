@@ -1,19 +1,5 @@
 /* background-color: #2fa2cc */
 
-@media screen and (max-width: 1024px) {
-
-	.container {
-		width: 100% !important;
-	}
-}
-
-@media screen and (max-width: 480px) {
-
-	.container {
-		max-width: 480px;
-	}
-
-}
 /* Body */
 
 	.is-preload {
@@ -30,8 +16,12 @@ h3 {
 	font-size: 26px;
 }
 
+h4 {
+	font-size: 22px;
+}
+
 h2, h3, h4 {
-	color: #645F5F;
+	color: #2fa2cc;
 }
 
 p {
@@ -46,7 +36,7 @@ p {
 .container {
 	margin: 0 auto;
 	width: 50%;
-	padding: 70px;
+	padding: 30px;
 }
 
 hr {
@@ -96,7 +86,7 @@ hr {
 	.active {
 		text-decoration: none;
 		color: #ffffff;
-		font-size: 22px;
+		font-size: 22px; 
 	}
 
 	.nav li {
@@ -113,7 +103,7 @@ hr {
 
 	.image-main img {
 		width: 105%;
-		height: 550px;
+		height: 450px;
 	}
 
 	.features img {
@@ -121,6 +111,10 @@ hr {
 	}
 
 /* Sections */
+
+	#two .container {
+		height: 300px;
+	}
 
 	.features article .inner {
 		vertical-align: middle;
@@ -130,8 +124,33 @@ hr {
 
 	.feature-icons {
 		color: gray;
+		list-style: none;
+		font-size: 18px;
+		margin: 0px;
+		height: 100px;
 	}
 
 	article {
 		padding: 10px;
+	}
+
+	.major h1 {
+		color: gray;
+		font-size: 22px;
+	}
+
+	/* List */
+
+	.feature-icons .icons {
+		float: right;
+		width: 50%;
+	}
+
+	.icons-li {
+		float: left;
+		width: 50%;
+	}
+
+	.feature-icons li {
+		margin-top: 10px;
 	}
