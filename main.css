@@ -1,5 +1,6 @@
 /* background-color: #2fa2cc */
 
+
 /* Body */
 
 	.is-preload {
@@ -8,41 +9,42 @@
 
 /* Basic */
 
-h2 {
-	font-size: 30px;
-}
+	h2 {
+		font-size: 30px;
+	}
 
-h3 {
-	font-size: 26px;
-}
+	h3 {
+		font-size: 26px;
+	}
 
-h4 {
-	font-size: 22px;
-}
+	h4 {
+		font-size: 22px;
+	}
 
-h2, h3, h4 {
-	color: #2fa2cc;
-}
+	h2, h3, h4 {
+		color: #2fa2cc;
+	}
 
-p {
-	color: gray;
-	font-size: 20px;
-}
+	p {
+		color: gray;
+		font-size: 20px;
+	}
 
-.wrapperDiv {
-	width: 80.5%;	
-}
+	.wrapperDiv {
+		width: 80.5%;	
+	}
 
-.container {
-	margin: 0 auto;
-	width: 50%;
-	padding: 30px;
-}
+	.container {
+		margin: 0 auto;
+		width: 50%;
+		padding: 30px;
+	}
 
-hr {
-	border: 3px solid lightgray;
-	opacity: 0.5;
-}
+	hr {
+		border: 3px solid lightgray;
+		opacity: 0.5;
+		margin: 0px;
+	}
 
 /* Header */
 
@@ -153,4 +155,76 @@ hr {
 
 	.feature-icons li {
 		margin-top: 10px;
+	}
+
+	#titleBar {
+		display: none;
+	}
+
+	/* Mobile Design */
+
+	@media screen and (max-width: 1680px) {
+		.wrapperDiv {
+			width: 1345px;
+		}
+		.header {
+			width: 335px;
+		}
+		hr {
+			width: 100%;
+			margin: 0px;
+		}
+	}
+
+	@media screen and (max-width: 1280px) {
+		.wrapperDiv {
+			width: 950px;
+		}
+		section .header {
+			width: 275px;
+		}
+		header {
+			width: 335px;
+		}
+		hr {
+			width: 99%;
+			margin: 0;
+		}
+		.container {
+			width: 60%;
+			padding: 30px;
+		}
+	}
+
+	@media screen and (max-width: 1024px) {
+		.wrapperDiv {
+			width: 100%;
+		}
+		hr {
+			width: 98%;
+			margin: 0px;
+		}
+		#titleBar {
+			display: block;
+			height: 44px;
+			left: 0;
+			position: fixed;
+			top: 0;
+			width: 100%;
+			z-index: 10001;
+			background: #222;
+			color: #fff;
+			min-width: 320px; 
+		}
+		.header {
+			display: none;
+		}
+	}
+
+	@media screen and (max-width: 736px) {
+
+	}
+
+	@media screen and (max-width: 480px) {
+
 	}
