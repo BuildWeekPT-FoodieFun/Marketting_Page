@@ -43,13 +43,13 @@
 	hr {
 		border: 3px solid lightgray;
 		opacity: 0.5;
-		margin: 0px;
+		width: 100%;
 	}
 
 /* Header */
 
 	header {
-		width: 372px;
+		width: 100%;
 	}
 
 	.header {
@@ -104,8 +104,8 @@
 	}
 
 	.image-main img {
-		width: 105%;
-		height: 450px;
+		width: 100rem;
+		height: 25rem;
 	}
 
 	.features img {
@@ -115,7 +115,7 @@
 /* Sections */
 
 	#two .container {
-		height: 300px;
+		height: 25em;
 	}
 
 	.features article .inner {
@@ -129,7 +129,7 @@
 		list-style: none;
 		font-size: 18px;
 		margin: 0px;
-		height: 100px;
+		height: 100%;
 	}
 
 	article {
@@ -165,30 +165,43 @@
 
 	@media screen and (max-width: 1680px) {
 		.wrapperDiv {
-			width: 1345px;
+			width: 80%;
 		}
 		.header {
-			width: 335px;
+			width: 20%;
 		}
 		hr {
-			width: 100%;
+			width: 99.5%;
 			margin: 0px;
 		}
 	}
 
-	@media screen and (max-width: 1280px) {
+	@media screen and (max-width: 1480px) {
 		.wrapperDiv {
-			width: 950px;
+			width: 80%;
 		}
-		section .header {
-			width: 275px;
-		}
-		header {
-			width: 335px;
+		.header {
+			width: 20%;
 		}
 		hr {
-			width: 99%;
-			margin: 0;
+			width: 99.5%;
+		}
+		
+	}
+
+	@media screen and (max-width: 1280px) {
+		.wrapperDiv {
+			width: 80%;
+		}
+		.header {
+			width: 20%;
+		}
+		header {
+			width: 100%;
+		}
+		hr {
+			width: 99.5%;
+			margin: 0px;
 		}
 		.container {
 			width: 60%;
@@ -199,9 +212,13 @@
 	@media screen and (max-width: 1024px) {
 		.wrapperDiv {
 			width: 100%;
+
+		}
+		.image-main img {
+			width: 100%;
 		}
 		hr {
-			width: 98%;
+			width: 100%;
 			margin: 0px;
 		}
 		#titleBar {
@@ -215,6 +232,7 @@
 			background: #222;
 			color: #fff;
 			min-width: 320px;
+			padding-top: 15px;
 		}
 		.header {
 			display: none;
@@ -223,13 +241,36 @@
 			text-decoration: none;
 			padding-left: 15px;
 			color: blue;
+			font-size: 22px;
 		}
 	}
 
-	@media screen and (max-width: 736px) {
-
+	@media screen and (max-width: 735px) {
+		.is-preload {
+			width: 100%;
+		}
 	}
 
 	@media screen and (max-width: 480px) {
-
+		.container {
+			width: 90%;
+		}
+		.feature-icons .icons-li {
+			font-size: 16px;
+			height: 5%;
+			width: 100%;
+			padding: 5px;
+		}
+		.feature-icons .icons {
+			font-size: 16px;
+			height: 5%;
+			width: 100%;
+			padding: 5px;
+		}
+		.features img {
+			width: 100%;
+		}
+		.features article .inner {
+			width: 100%;
+		}
 	}
