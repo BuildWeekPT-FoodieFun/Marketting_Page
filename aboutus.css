@@ -1,0 +1,102 @@
+/* Basic */
+
+    body {
+        background-image: url("https://i0.wp.com/gistdigest24ng.com/wp-content/uploads/2018/04/912888-beautiful-background-wallpapers-1920x1200-htc.jpg?fit=1920%2C1200");
+    }
+
+    .container {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    hr {
+        border: 1px solid black;
+    }
+
+/* Header */
+
+    .header {
+        text-align: center;
+    }
+
+    .header h1 {
+        font-size: 4em;
+    }
+
+    .header p {
+        font-size: 2em;
+    }
+
+/* Project Lead */
+
+    .projectLead {
+        text-align: center;
+    }
+
+    .projectLead p {
+        font-size: 24px;
+    }
+
+    .projectLead img {
+        height: 15rem;
+        border-radius: 12px;
+    }
+
+/* Web Unit 1 */
+
+    .webUnit1 {
+        text-align: center;
+    }
+
+    .webUnit1 p {
+        font-size: 24px;
+    }
+
+    .webUnit1 .div1 {
+        width: 50%;
+        float: left;
+    }
+
+    .webUnit1 img {
+        height: 15rem;
+        border-radius: 12px;
+    }
+
+/* Web Unit 2 */
+
+    .webUnit2 {
+        text-align: center;
+    }
+
+    .webUnit2 h2 {
+    
+    }
+
+    .webUnit2 p {
+        font-size: 24px;
+    }
+
+    .webUnit2 .div3 {
+        width: 50%;
+        float: left;
+    }
+
+    .webUnit2 img {
+        height: 13rem;
+        border-radius: 12px;
+    }
+
+/* Web Unit 4 */
+
+    .webUnit4 {
+        text-align: center;
+    }
+
+    .webUnit4 p {
+        font-size: 24px;
+    }
+
+    .webUnit4 img {
+        height: 15rem;
+        border-radius: 12px;
+    }
