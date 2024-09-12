@@ -1,0 +1,219 @@
+/* Basic */
+
+    body {
+        background-image: url("https://i0.wp.com/gistdigest24ng.com/wp-content/uploads/2018/04/912888-beautiful-background-wallpapers-1920x1200-htc.jpg?fit=1920%2C1200");
+        margin: 0 auto;
+    }
+
+    .container {
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    hr {
+        border: 1px solid black;
+    }
+
+/* Header */
+
+    .header {
+        text-align: center;
+    }
+
+    .header h1 {
+        font-size: 4em;
+    }
+
+    .header p {
+        font-size: 2em;
+    }
+
+/* Project Lead */
+
+    .projectLead {
+        text-align: center;
+    }
+
+    .projectLead p {
+        font-size: 24px;
+    }
+
+    .projectLead img {
+        height: 20rem;
+        border-radius: 12px;
+    }
+
+/* Web Unit 1 */
+
+    .webUnit1 {
+        text-align: center;
+    }
+
+    .webUnit1 p {
+        font-size: 24px;
+    }
+
+    .webUnit1 .div1 {
+        width: 50%;
+        float: left;
+    }
+
+    .webUnit1 img {
+        height: 20rem;
+        border-radius: 12px;
+    }
+
+/* Web Unit 2 */
+
+    .webUnit2 {
+        text-align: center;
+    }
+
+    .webUnit2 p {
+        font-size: 24px;
+    }
+
+    .webUnit2 .div3 {
+        width: 50%;
+        float: left;
+    }
+
+    .webUnit2 img {
+        height: 20rem;
+        border-radius: 12px;
+    }
+
+/* Web Unit 4 */
+
+    .webUnit4 {
+        text-align: center;
+    }
+
+    .webUnit4 p {
+        font-size: 24px;
+    }
+
+    .webUnit4 img {
+        height: 20rem;
+        border-radius: 12px;
+    }
+
+/* Mobile Design */
+
+    @media screen and (max-width: 1680px) {
+        .projectLead img {
+            height: 18rem;
+        }
+        .webUnit1 img {
+            height: 18rem;
+        }
+        .webUnit2 img {
+            height: 18rem;
+        }
+        .webUnit4 img {
+            height: 18rem;
+        }
+    }
+
+    @media screen and (max-width: 1480px) {
+        .projectLead img {
+            height: 16rem;
+        }
+        .webUnit1 img {
+            height: 16rem;
+        }
+        .webUnit2 img {
+            height: 16rem;
+        }
+        .webUnit4 img {
+            height: 16rem;
+        }
+    }
+
+    @media screen and (max-width: 1024px) {
+        .container {
+            width: 70%;
+        }
+        .projectLead img {
+            height: 14rem;
+        }
+        .webUnit1 img {
+            height: 14rem;
+        }
+        .webUnit2 img {
+            height: 14rem;
+        }
+        .webUnit4 img {
+            height: 14rem;
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        .container {
+			width: 90%;
+        }
+    }
+
+    @media screen and (max-width: 540px) {
+        .container {
+            width: 80%;
+        }
+        .projectLead img {
+            height: 12rem;
+        }
+        .webUnit1 img {
+            height: 12rem;
+        }
+        .webUnit2 img {
+            height: 12rem;
+        }
+        .webUnit4 img {
+            height: 12rem;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+
+        .projectLead img {
+            height: 10rem;
+        }
+        .webUnit1 img {
+            height: 10rem;
+        }
+        .webUnit2 img {
+            height: 10rem;
+        }
+        .webUnit4 img {
+            height: 10rem;
+        }
+    }
+
+    @media screen and (max-width: 380px) {
+        .projectLead img {
+            height: 8rem;
+        }
+        .webUnit1 img {
+            height: 8rem;
+        }
+        .webUnit2 img {
+            height: 8rem;
+        }
+        .webUnit4 img {
+            height: 8rem;
+        }
+        .header p {
+            font-size: 22px;
+        }
+        .projectLead p {
+            font-size: 18px;
+        }
+        .webUnit1 p {
+            font-size: 18px;
+        }
+        .webUnit2 p {
+            font-size: 18px;
+        }
+        .webUnit4 p {
+            font-size: 18px;
+        }
+    }
